@@ -1,0 +1,10 @@
+.movie__stars_vote {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.movie__cart_img {
+    border:50px;
+}

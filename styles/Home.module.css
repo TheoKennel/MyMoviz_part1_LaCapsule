@@ -1,0 +1,61 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.title {
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover, .title a:focus, .title a:active {
+  text-decoration: underline;
+}*
+
+.headerStyle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 6rem;
+  background : #021334;
+}
+
+.header__img{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 50px;
+}
+
+.header__button {
+  height: 2.25rem;
+  width: 8rem;
+  font-size: 16px;
+  background: none;
+  border-radius: 4px;
+  border-color:#fff;
+  margin-right: 1rem;
+}
+
+.body__cart {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto auto;
+  gap: 1rem;
+  margin: auto;
+  padding-top: 5rem;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
